@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        section {
+            background: grey;
+            color: white;
+            font-weight: bold;
+            padding: 1em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+
+        #big-talk-button {
+            padding: 1em;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1 id='big-talk-paragraph'>Click the button</h1>
+    </section>
+    <button id='big-talk-button' type='button' onclick='random()'>Random</button>
+
+
+    <script>
+        let data
+        fetch('big-talks.json').then(response => response.json()).then(json => data = json)
+        function random() {
+            document.getElementById('big-talk-paragraph').innerHTML = data['basic'][data['basic'].length * Math.random() | 0]
+        }
+    </script>
+</body>
+
+</html>
