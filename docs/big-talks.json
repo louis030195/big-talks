@@ -43,6 +43,15 @@
         "You are (insert skill). Are there things you think you know about (skill) that maybe other people undervalue that you could instruct us with?",
         "What is the most significant constraint for making (insert project) bigger and better?",
         "Ulysses bucket list: \"Tell me something you have done, or want to do, that you think I should do? It can be anything, as challenging as you want it to be, or as easy. As long as you give me the rest of my life to complete it, I promise I will do it.\"",
-        "What’s your favorite quote ?"
+        "What’s your favorite quote ?",
+        "Who are one to three person(s) that have greatly influenced your life?",
+        "What is the book (or books) you’ve given most as a gift, and why?",
+        "In the last five years, what new belief, behavior, or habit has most improved your life?",
+        "What are one to three movies/documentaries that have greatly influenced your life?",
+        "What habits, tools or apps improved your productivity recently?",
+        "What purchase of $100 or less has most positively impacted your life in the last six months (or in recent memory)?",
+        "What’s something you’ve changed your mind about",
+        "If you could have a gigantic billboard anywhere with anything on it — metaphorically speaking, getting a message out to millions or billions — what would it say and why?",
+        "What is something you would like to do to improve your life?"
     ]
 }
